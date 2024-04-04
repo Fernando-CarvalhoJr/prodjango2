@@ -9,7 +9,7 @@ html{
 }
 .grid {
   		overflow: hidden;
-		padding: 2em 2em;
+		padding: 2em 2em 2em 2em;
 		max-width: 76em;
 		margin: 0 auto;
 		}
@@ -24,7 +24,7 @@ html{
 		    border-top: 0.6px solid #cccccc;
       
 			background: #ffffff;
-			padding: 7em 2em;
+			padding: 2em 2em 7em 2em;
 			text-align: center;
 		}
 		.grid li a {
@@ -98,7 +98,6 @@ body {
 	text-decoration:none;
 	display:block;
     color:white;
-	background: url(image url) center center no-repeat;
 	margin-right: 12px;
 	padding: 15px 25px;
 }
@@ -122,4 +121,10 @@ body {
     color:white;
     background-color: #0B3B39;
     padding: 0px 0px
+}
+
+.opcoes {
+	display: flex;
+	justify-content: space-between;	
+	margin-bottom: 5em;
 }
